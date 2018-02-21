@@ -19,7 +19,7 @@ import java.util.Set;
  */
 public class Main {
 	public static void main(String[] args) throws FileNotFoundException {
-		File file = new File("trending_today.in");
+		File file = new File("videos_worth_spreading.in");
 		Scanner read = new Scanner(file);
 
 		String init = read.nextLine();
